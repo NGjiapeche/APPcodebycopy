@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		EFC4586B1CA5415100421855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4586A1CA5415100421855 /* main.m */; };
 		EFC4586E1CA5415100421855 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4586D1CA5415100421855 /* AppDelegate.m */; };
-		EFC458711CA5415100421855 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC458701CA5415100421855 /* ViewController.m */; };
 		EFC458741CA5415100421855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC458721CA5415100421855 /* Main.storyboard */; };
 		EFC458761CA5415100421855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC458751CA5415100421855 /* Assets.xcassets */; };
-		EFC458791CA5415100421855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC458771CA5415100421855 /* LaunchScreen.storyboard */; };
 		EFC458841CA5415100421855 /* testRemovefieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC458831CA5415100421855 /* testRemovefieTests.m */; };
 		EFC4588F1CA5415100421855 /* testRemovefieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4588E1CA5415100421855 /* testRemovefieUITests.m */; };
 /* End PBXBuildFile section */
@@ -39,11 +37,8 @@
 		EFC4586A1CA5415100421855 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFC4586C1CA5415100421855 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC4586D1CA5415100421855 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFC4586F1CA5415100421855 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFC458701CA5415100421855 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFC458731CA5415100421855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFC458751CA5415100421855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EFC458781CA5415100421855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC4587A1CA5415100421855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC4587F1CA5415100421855 /* testRemovefieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRemovefieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC458831CA5415100421855 /* testRemovefieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRemovefieTests.m; sourceTree = "<group>"; };
@@ -103,11 +98,8 @@
 			children = (
 				EFC4586C1CA5415100421855 /* AppDelegate.h */,
 				EFC4586D1CA5415100421855 /* AppDelegate.m */,
-				EFC4586F1CA5415100421855 /* ViewController.h */,
-				EFC458701CA5415100421855 /* ViewController.m */,
 				EFC458721CA5415100421855 /* Main.storyboard */,
 				EFC458751CA5415100421855 /* Assets.xcassets */,
-				EFC458771CA5415100421855 /* LaunchScreen.storyboard */,
 				EFC4587A1CA5415100421855 /* Info.plist */,
 				EFC458691CA5415100421855 /* Supporting Files */,
 			);
@@ -243,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC458791CA5415100421855 /* LaunchScreen.storyboard in Resources */,
 				EFC458761CA5415100421855 /* Assets.xcassets in Resources */,
 				EFC458741CA5415100421855 /* Main.storyboard in Resources */,
 			);
@@ -270,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC458711CA5415100421855 /* ViewController.m in Sources */,
 				EFC4586E1CA5415100421855 /* AppDelegate.m in Sources */,
 				EFC4586B1CA5415100421855 /* main.m in Sources */,
 			);
@@ -314,14 +304,6 @@
 				EFC458731CA5415100421855 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EFC458771CA5415100421855 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFC458781CA5415100421855 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

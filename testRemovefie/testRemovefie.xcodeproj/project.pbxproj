@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFC4586B1CA5415100421855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4586A1CA5415100421855 /* main.m */; };
+		EFC4586E1CA5415100421855 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4586D1CA5415100421855 /* AppDelegate.m */; };
+		EFC458711CA5415100421855 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC458701CA5415100421855 /* ViewController.m */; };
+		EFC458741CA5415100421855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC458721CA5415100421855 /* Main.storyboard */; };
+		EFC458761CA5415100421855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC458751CA5415100421855 /* Assets.xcassets */; };
+		EFC458791CA5415100421855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC458771CA5415100421855 /* LaunchScreen.storyboard */; };
+		EFC458841CA5415100421855 /* testRemovefieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC458831CA5415100421855 /* testRemovefieTests.m */; };
+		EFC4588F1CA5415100421855 /* testRemovefieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4588E1CA5415100421855 /* testRemovefieUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFC458801CA5415100421855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC4585E1CA5415100421855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC458651CA5415100421855;
+			remoteInfo = testRemovefie;
+		};
+		EFC4588B1CA5415100421855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC4585E1CA5415100421855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC458651CA5415100421855;
+			remoteInfo = testRemovefie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFC458661CA5415100421855 /* testRemovefie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRemovefie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC4586A1CA5415100421855 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFC4586C1CA5415100421855 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFC4586D1CA5415100421855 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFC4586F1CA5415100421855 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFC458701CA5415100421855 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFC458731CA5415100421855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFC458751CA5415100421855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC458781CA5415100421855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC4587A1CA5415100421855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC4587F1CA5415100421855 /* testRemovefieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRemovefieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC458831CA5415100421855 /* testRemovefieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRemovefieTests.m; sourceTree = "<group>"; };
+		EFC458851CA5415100421855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC4588A1CA5415100421855 /* testRemovefieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRemovefieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC4588E1CA5415100421855 /* testRemovefieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRemovefieUITests.m; sourceTree = "<group>"; };
+		EFC458901CA5415100421855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC458631CA5415100421855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC4587C1CA5415100421855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC458871CA5415100421855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC4585D1CA5415100421855 = {
+			isa = PBXGroup;
+			children = (
+				EFC458681CA5415100421855 /* testRemovefie */,
+				EFC458821CA5415100421855 /* testRemovefieTests */,
+				EFC4588D1CA5415100421855 /* testRemovefieUITests */,
+				EFC458671CA5415100421855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC458671CA5415100421855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC458661CA5415100421855 /* testRemovefie.app */,
+				EFC4587F1CA5415100421855 /* testRemovefieTests.xctest */,
+				EFC4588A1CA5415100421855 /* testRemovefieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC458681CA5415100421855 /* testRemovefie */ = {
+			isa = PBXGroup;
+			children = (
+				EFC4586C1CA5415100421855 /* AppDelegate.h */,
+				EFC4586D1CA5415100421855 /* AppDelegate.m */,
+				EFC4586F1CA5415100421855 /* ViewController.h */,
+				EFC458701CA5415100421855 /* ViewController.m */,
+				EFC458721CA5415100421855 /* Main.storyboard */,
+				EFC458751CA5415100421855 /* Assets.xcassets */,
+				EFC458771CA5415100421855 /* LaunchScreen.storyboard */,
+				EFC4587A1CA5415100421855 /* Info.plist */,
+				EFC458691CA5415100421855 /* Supporting Files */,
+			);
+			path = testRemovefie;
+			sourceTree = "<group>";
+		};
+		EFC458691CA5415100421855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC4586A1CA5415100421855 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC458821CA5415100421855 /* testRemovefieTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC458831CA5415100421855 /* testRemovefieTests.m */,
+				EFC458851CA5415100421855 /* Info.plist */,
+			);
+			path = testRemovefieTests;
+			sourceTree = "<group>";
+		};
+		EFC4588D1CA5415100421855 /* testRemovefieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC4588E1CA5415100421855 /* testRemovefieUITests.m */,
+				EFC458901CA5415100421855 /* Info.plist */,
+			);
+			path = testRemovefieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC458651CA5415100421855 /* testRemovefie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC458931CA5415100421855 /* Build configuration list for PBXNativeTarget "testRemovefie" */;
+			buildPhases = (
+				EFC458621CA5415100421855 /* Sources */,
+				EFC458631CA5415100421855 /* Frameworks */,
+				EFC458641CA5415100421855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testRemovefie;
+			productName = testRemovefie;
+			productReference = EFC458661CA5415100421855 /* testRemovefie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC4587E1CA5415100421855 /* testRemovefieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC458961CA5415100421855 /* Build configuration list for PBXNativeTarget "testRemovefieTests" */;
+			buildPhases = (
+				EFC4587B1CA5415100421855 /* Sources */,
+				EFC4587C1CA5415100421855 /* Frameworks */,
+				EFC4587D1CA5415100421855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC458811CA5415100421855 /* PBXTargetDependency */,
+			);
+			name = testRemovefieTests;
+			productName = testRemovefieTests;
+			productReference = EFC4587F1CA5415100421855 /* testRemovefieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFC458891CA5415100421855 /* testRemovefieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC458991CA5415100421855 /* Build configuration list for PBXNativeTarget "testRemovefieUITests" */;
+			buildPhases = (
+				EFC458861CA5415100421855 /* Sources */,
+				EFC458871CA5415100421855 /* Frameworks */,
+				EFC458881CA5415100421855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC4588C1CA5415100421855 /* PBXTargetDependency */,
+			);
+			name = testRemovefieUITests;
+			productName = testRemovefieUITests;
+			productReference = EFC4588A1CA5415100421855 /* testRemovefieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC4585E1CA5415100421855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PilotLabHome;
+				TargetAttributes = {
+					EFC458651CA5415100421855 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EFC4587E1CA5415100421855 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EFC458651CA5415100421855;
+					};
+					EFC458891CA5415100421855 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EFC458651CA5415100421855;
+					};
+				};
+			};
+			buildConfigurationList = EFC458611CA5415100421855 /* Build configuration list for PBXProject "testRemovefie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC4585D1CA5415100421855;
+			productRefGroup = EFC458671CA5415100421855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC458651CA5415100421855 /* testRemovefie */,
+				EFC4587E1CA5415100421855 /* testRemovefieTests */,
+				EFC458891CA5415100421855 /* testRemovefieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC458641CA5415100421855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC458791CA5415100421855 /* LaunchScreen.storyboard in Resources */,
+				EFC458761CA5415100421855 /* Assets.xcassets in Resources */,
+				EFC458741CA5415100421855 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC4587D1CA5415100421855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC458881CA5415100421855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC458621CA5415100421855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC458711CA5415100421855 /* ViewController.m in Sources */,
+				EFC4586E1CA5415100421855 /* AppDelegate.m in Sources */,
+				EFC4586B1CA5415100421855 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC4587B1CA5415100421855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC458841CA5415100421855 /* testRemovefieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC458861CA5415100421855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC4588F1CA5415100421855 /* testRemovefieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC458811CA5415100421855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC458651CA5415100421855 /* testRemovefie */;
+			targetProxy = EFC458801CA5415100421855 /* PBXContainerItemProxy */;
+		};
+		EFC4588C1CA5415100421855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC458651CA5415100421855 /* testRemovefie */;
+			targetProxy = EFC4588B1CA5415100421855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFC458721CA5415100421855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC458731CA5415100421855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFC458771CA5415100421855 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC458781CA5415100421855 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC458911CA5415100421855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFC458921CA5415100421855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC458941CA5415100421855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testRemovefie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.testRemovefie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFC458951CA5415100421855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testRemovefie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.testRemovefie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFC458971CA5415100421855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testRemovefieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.testRemovefieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRemovefie.app/testRemovefie";
+			};
+			name = Debug;
+		};
+		EFC458981CA5415100421855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testRemovefieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.testRemovefieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRemovefie.app/testRemovefie";
+			};
+			name = Release;
+		};
+		EFC4589A1CA5415100421855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testRemovefieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.testRemovefieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testRemovefie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFC4589B1CA5415100421855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testRemovefieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.testRemovefieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testRemovefie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC458611CA5415100421855 /* Build configuration list for PBXProject "testRemovefie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC458911CA5415100421855 /* Debug */,
+				EFC458921CA5415100421855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC458931CA5415100421855 /* Build configuration list for PBXNativeTarget "testRemovefie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC458941CA5415100421855 /* Debug */,
+				EFC458951CA5415100421855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFC458961CA5415100421855 /* Build configuration list for PBXNativeTarget "testRemovefieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC458971CA5415100421855 /* Debug */,
+				EFC458981CA5415100421855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFC458991CA5415100421855 /* Build configuration list for PBXNativeTarget "testRemovefieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC4589A1CA5415100421855 /* Debug */,
+				EFC4589B1CA5415100421855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC4585E1CA5415100421855 /* Project object */;
+}
